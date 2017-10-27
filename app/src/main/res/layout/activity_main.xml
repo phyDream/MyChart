@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cdlixin.mychart.activity.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lv_chart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.cdlixin.mychart.view.ListChartView
+        android:id="@+id/lcv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="8dp"
+        app:list_chart_color="@color/colorAccent"
+        app:list_chart_color_select="@color/colorAccent2"
+        app:list_text_color= "@color/colorText"/>
+
+</LinearLayout>

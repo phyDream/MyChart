@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChartView">
+        <attr name="chart_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ListChartView">
+        <attr name="list_chart_color" format="color" />
+        <attr name="list_chart_color_select" format="color" />
+        <attr name="list_text_color" format="color" />
+        <attr name="chart_item_width" format="dimension" />
+    </declare-styleable>
+</resources>
